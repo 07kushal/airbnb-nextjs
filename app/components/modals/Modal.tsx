@@ -94,9 +94,6 @@ const Modal: React.FC<ModalProps> = ({
           h-full 
           lg:h-auto
           md:h-auto
-          // custom style
-          mt-[10%]
-          pb-[1%]
           "
         >
           {/*content*/}
