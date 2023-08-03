@@ -84,6 +84,10 @@ const Modal: React.FC<ModalProps> = ({
         "
       >
         <div
+          className="fixed inset-0 w-full h-full bg-black opacity-40"
+          onClick={handleClose}
+        ></div>
+        <div
           className="
           relative 
           w-full
@@ -91,9 +95,9 @@ const Modal: React.FC<ModalProps> = ({
           lg:w-3/6
           xl:w-2/5
           mx-auto 
-          h-full 
           lg:h-auto
           md:h-auto
+          max-h-full
           "
         >
           {/*content*/}
