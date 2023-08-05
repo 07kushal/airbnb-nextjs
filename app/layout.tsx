@@ -5,7 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import RegisterModal from "./components/modals/RegisterModal";
 import ToasterProvider from "./providers/ToasterProvider";
 import LoginModal from "./components/modals/LoginModal";
-import { getCurrentUser } from "./actions/getCurrentUser";
+import getCurrentUser from "./actions/getCurrentUser";
 import ClientOnly from "./components/ClientOnly";
 import RentModal from "./components/modals/RentModal";
 
