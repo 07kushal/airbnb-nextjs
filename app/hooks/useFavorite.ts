@@ -33,10 +33,10 @@ const useFavorite = ({ listingId, currentUser }: IUseFavorite) => {
         let request;
         let successMsg;
         if (hasFavorite) {
-          request = () => axios.delete(`api/favorites/${listingId}`);
+          request = () => axios.delete(`/api/favorites/${listingId}`);
           successMsg = "Successfully deleted!";
         } else {
-          request = () => axios.post(`api/favorites/${listingId}`);
+          request = () => axios.post(`/api/favorites/${listingId}`);
           successMsg = "Successfully added to favorites!";
         }
 
@@ -54,3 +54,5 @@ const useFavorite = ({ listingId, currentUser }: IUseFavorite) => {
 };
 
 export default useFavorite;
+
+// hasFavorite
