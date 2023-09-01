@@ -21,6 +21,10 @@ const Home = async ({ searchParams }: HomeProps) => {
     );
   }
 
+  // throw new Error(
+  //   "This error was thrown on purpose to simulate a server error",
+  // );
+
   return (
     <ClientOnly>
       <Container>
